@@ -53,7 +53,7 @@ public class FuerzaArmada {
 		return batallas.get(nombre);
 	}
 
-	public boolean enviarALaBatalla(String string, int i) {
+	public boolean enviarALaBatalla(String string, int i)throws VehiculoIncompatible,VehiculoInexistente {
 		Batalla batalla=batallas.get(string);
 	
 		return false;
